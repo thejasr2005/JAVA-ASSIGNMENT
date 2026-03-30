@@ -3,7 +3,7 @@ package MODULE9;
 public class AllSubsets {
     static void subset(int[] a, int index, String current){
         if(index == a.length){
-            System.out.print(current + " ");
+            System.out.print("["+current +"]" + " ");
             return;
         }
 
